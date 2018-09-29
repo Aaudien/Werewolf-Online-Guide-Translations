@@ -4,9 +4,9 @@ Wanna become a translator ? It's simple ! Contact us via [discord](https://disco
 
 
 ## Instructions
-1. Contact us via [discord](https://discord.gg/cWJ7kGJ)
+1. Create a github account
 
-2. Create a github account
+2. Contact us via [discord](https://discord.gg/cWJ7kGJ) and give us your language + GitHub username
 
 3. Once you created a github account, fork this project (button should be at the top right corner of your screen on PC)
 
