@@ -1,0 +1,204 @@
+{
+    "tabs": {
+        "home_tab_label": "Home",
+        "role_guides_tab_label": "Role Guides",
+        "global_discussion_tab_label": "Global Discussion"
+    },
+    "announcements_label": "Announcements",
+    "share_label": "Share",
+    "menu_label": "Menu",
+    "version_label": "Version {{0}}",
+    "coming_soon_alert_title": "Oops...",
+    "coming_soon_alert_message": "This option will be available soon !",
+    "close_label": "Close",
+    "roles": {
+        "alpha_werewolf": {
+            "label": "Alpha Werewolf",
+            "description": "As Alpha Werewolf you have to decide who to kill since your vote counts double at night. Be as observant as you can and communicate with the other Werewolves. Always ask the Wolf Shaman who he enchanted and the Wolf Seer who he looked at so you can make your decisions. When an Aura Seer looked at you and he asks for your role, don't say anything OR tell him a role that would be shown as unknown (for example Medium, Fool or Headhunter with a dead target).",
+            "abilities": "Kill villagers. His vote counts double."
+        },
+        "arsonist": {
+            "label": "Arsonist",
+            "description": "As Arsonist your goal is to be the last person alive. At night you can either douse two people in gasoline or kill all players that are already doused. The best thing you can do is to think ahead. Try to find players that will stay alive pretty long and when the time comes and you think you can win with the players that will stay alive, everything will be fine.",
+            "abilities": "Can douse two players per night or kill the already doused players."
+        },
+        "aura_seer": {
+            "label": "Aura Seer",
+            "description": "As Aura Seer you can look at one person each night. This person is either Good (e.g. Villager, Doctor, Seer), Unknown (e.g. Gunner, Beast Hunter, Alpha Werewolf) or Evil (e.g. Werewolf). Just tell everyone what you saw, ask kindly for protection from either Doctor or Bodyguard and if the person you saw died right after you checked him, don't say anything or tell them that the person you saw died.",
+            "abilities": "Each night he can see someones aura."
+        },
+        "avenger": {
+            "label": "Avenger",
+            "description": "As Avenger you can select one player of your choice that dies with you. Try to find someone suspicious or you know more bad people than you can kill in one day, select the bad person!",
+            "abilities": "Can select someone who will die if he die."
+        },
+        "bodyguard": {
+            "label": "Bodyguard",
+            "description": "As Bodyguard you can get hit twice before dying and you can also protect someone at night. If the person you protect got attacked or you got attacked, you'll see the message “You fought off an attack last night and survived. Next time you are attacked you will die!”. At the first night do not protect anyone and just see if you get hit, if you got hit tell everyone that you got attacked. If you didn't get hit then try to find a reliable person and protect him.",
+            "abilities": "Can protect someone each night. Can be attacked two times before dying."
+        },
+        "cursed_human": {
+            "label": "Cursed Human",
+            "description": "As Cursed you are a normal villager but if you get killed by the werewolves you get converted into a regular werewolf. You should try to make the werewolves kill you without actually telling them to kill you. Try looking like an important role or help the werewolves while being a villager. If you get the game so there are the same amount villagers as there are werewolves, tell them you are the Cursed and they should kill you. Then you vote with them so it will be a tie vote and if you get attacked there are more werewolves as villagers which means you win!",
+            "abilities": "Become a werewof when they kill him."
+        },
+        "detective": {
+            "label": "Detective",
+            "description": "As detective you can look at two people each night. If they are in the same team it will show an “=” sign, if they aren’t it will show a “≠” sign. You can either try to pick two random people and look if they’re in the same team or look at one person that you know is good and one suspicious person to see if he’s good or bad! After you investigated two players don't tell everyone immediately, just type when you have two or three guesses or when a good person is about to get lynched. Don’t just say “He is good” or anything like that, tell them that you looked at two people and tell them how you came to the conclusion that this person is good \/ bad like a real detective!",
+            "abilities": "Can select two players each night to see if they are in the same team."
+        },
+        "doctor": {
+            "label": "Doctor",
+            "description": "Your goal as a Doctor is to find a reliable person to protect. Always protect the Seer if you know that someone is a Seer. Also talk with the Bodyguard that both of you won’t protect the same person, you could say something like “bodyguard protect xx” or “bodyguard on xx, doctor on xx”. Be careful that you won't protect the Sorcerer, you can find a Seer mostly if he exposes a Werewolf! If you're not sure who Seer or Aura Seer is, protect the Medium, Jailer, Beast Hunter or Gunner. Don't ever say you're role except you're about to get shot or voted or you will be an open target for the Werewolves or the Serial Killer!",
+            "abilities": "Can protect one player each night."
+        },
+        "fool": {
+            "label": "Fool",
+            "description": "As Fool your goal is to get lynched by the Village. Don't tell them that you're werewolf and you should get lynched, because everyone will get suspicious. Try to either be quiet and hope you will look suspicious with it and get randomvoted or claim to be a role like Seer or Aura Seer and say that random people are good or be a completely different role. But remember: You're never Gunner or Jailer. When you get this role you can be a complete troll and it doesn't matter if you help the Werewolves, Villagers or Serial Killer as long as you get lynched at the end.",
+            "abilities": "Must be lynched by village to win."
+        },
+        "grumpy_grandma": {
+            "label": "Grumpy Grandma",
+            "description": "As Grumpy Grandma you can silence someone each night except for the first night. Since you're on the villagers team don't silence the seers. Try to silence players that can confuse in the game (Fool, Sorcerer, Wolf Seer, etc).",
+            "abilities": "Can mute one player per night."
+        },
+        "gunner": {
+            "label": "Gunner",
+            "description": "Don't randomshoot as Gunner. Your goal as Gunner is to make it easier for the rest of the Villagers to win the game. You have two bullets and you can shoot one every day. If you know someone is a Werewolf, Serial Killer or Fool, shoot them! But you still have to be careful, because this game is all about lying and confusing people. So you shouldn't shoot immediately, first you should hear everyone out and wait for a few people to say something. If some people tell you to shoot someone you can kill them if you think that they are good. But try to avoid shooting since you will be shown as Gunner after your first shot. If you have to shoot, kindly ask a Doctor or Bodyguard for protection at nighttime.",
+            "abilities": "Has two bullets. He can shoot one per day."
+        },
+        "headhunter": {
+            "label": "Headhunter",
+            "description": "As Headhunter your goal is to get your target lynched by the village. If your target dies another way you will become a normal villager. Try to get people to believe you and tell them that your target is bad or tell them that you're Headhunter but your target died. Either way it's kind of a gamble and you need to be really convincing. If your target really dies just play along with the village so you can still win the game with everyone else.",
+            "abilities": "Has a target. To win, his target must be lynched by village."
+        },
+        "jailer": {
+            "label": "Jailer",
+            "description": "As Jailer you simply put someone in a jail ask him about his role and kill him if he's suspicious. Begin with jailing the ones that don't talk at all, ask them for their role and save your bullet. When multiple people get exposed at once and you can't kill them all, jail one and shoot! Even if you used your shot you can still jail someone and prevent them from killing villagers.",
+            "abilities": "Can jail one player per night. Then he can speak with him, and kill him if he seems to be suspect."
+        },
+        "medium": {
+            "label": "Medium",
+            "description": "As the Medium you need to stay quiet until someone important dies. You can revive this person so he can continue playing the game. When you revive someone tell this person at nighttime your number and that you revive the person you're reviving. Just don't say your role because you will be the target of everyone after you do that. Try to get information at night, but don't believe the Werewolves, Sorcerer, Fool or the Serial Killer. If you want to tell everyone what they said start your sentence with “(Number) said (what he said)”.",
+            "abilities": "Can speak with dead players. Also can revive one player per game."
+        },
+        "president": {
+            "label": "President",
+            "description": "As President you’re a normal villager except when you die the village loses the game. Tell them that you need to be protected and be very observant, finish the game as quick as possible and don’t randomkill, because you might kill the doctor. If the doctor dies and you didn’t kill a werewolf yet, you’ve most likely lost the game.",
+            "abilities": "If he die, the werewolves win."
+        },
+        "priest": {
+            "label": "Priest",
+            "description": "As Priest you have one potion that can only kill werewolves. Don't just randomly try to kill someone as Priest! Be careful and talk with the Gunner whether you want to try your luck or if he should. If the Gunner didn't shoot yet and a Seer confirmed a Werewolf, tell the Gunner that you will try to kill him. Priests should try to keep the Gunner from exposing himself. After you Threw your potion and you're still alive you can ask for protection, but the Bodyguard and Doctor should still prefer protecting the Seers. When a Seer got the Werewolf right and you killed the Werewolf you can trust this person and vote what he votes.",
+            "abilities": "Can throw holy water on a werewolf during the day which kills it."
+        },
+        "sect_leader": {
+            "label": "Sect Leader",
+            "description": "As Sect leader your goal is to be the last person alive with the other sect members. If you die every other sect member dies. Try to convert the Seer as soon as possible since he will be on your side and can confirm you as \"good\". After that try to get the Bodyguard, Doctor or Gunner on your side. Overall as Sect Leader you need to be patient and play together with your sect members in order to win.",
+            "abilities": "Each night he can select a player to be part of is sect."
+        },
+        "seer": {
+            "label": "Seer",
+            "description": "Your main goal as a Seer is to find the Werewolves and the Serial Killer. If you kill all three Werewolves (at a game of 16 players, if there are less, check which roles are in the game on the bottom left icon) and the Serial Killer you automatically win the game. You should also look out for the Headhunter or Fool. If the person you looked at is on the Villagers team (like Jailer, Doctor, Gunner etc.) don't start shouting out roles or they will get targeted by the werewolves and the serial killer. Try to say that they're good instead and if everyone is starting to vote him, tell them his role and convince them to not kill him. If the person you looked at died, don't say anything or you'll be a target for the Werewolves or the Serial Killer.",
+            "abilities": "Can see the role from one player each night."
+        },
+        "serial_killer": {
+            "label": "Serial Killer",
+            "description": "As Serial Killer your goal is to be the last person alive. The best way is to leave the Werewolves alone and don't kill them right at the beginning. Let them kill a few people and help you with that because they can't kill you in the night! When you get seen by an Aura Seer, tell them that you're Medium or Headhunter that lost his target. If you do the second one and they ask you who your target was, remember that roles like the Werewolves can't be your target! To win you can either try to be lucky and don't say anything or you can disguise yourself as another role and hope you don't get caught.",
+            "abilities": "Can kill a player each night."
+        },
+        "sorcerer": {
+            "label": "Sorcerer",
+            "description": "The most difficult role in the game for most of the players. As Sorcerer you can see a role each night and cannot talk to the Werewolves like the Wolf Seer can. First of all the goal of the Sorcerer isn't to stay alive and be the last man standing or anything. Of course you're evil, but you have to be as useful to the Werewolves as you can by exposing important roles and getting everyone else to trust you. If at least a few people think that you're good you succeeded as Sorcerer. If you get seen by a Seer: Tell him he is Headhunter or Fool or tell them you are Seer and he is Sorcerer. You could also say you’re Werewolf and the Priest might try to kill you. You will die but you can at least help the wolves! If you see someone important tell them and say “oh sorry I shouldn’t say roles”, it’s risky but it helps the wolves!",
+            "abilities": "Can see the role from one player each night."
+        },
+        "villager": {
+            "label": "Villager",
+            "description": "As Villager you don't have a special ability or a special tactic, just be as observant as you can and tell them your role if needed. It sometimes helps to be the bait for the wolves or Serial Killer and just allude that you're an important role like Medium or something so they waste their kill on you and your team can do something off of it.",
+            "abilities": "He is a regular villager"
+        },
+        "werewolf": {
+            "label": "Werewolf",
+            "description": "As a Werewolf your goal is to play with the other Werewolves and the Sorcerer\/Wolf Seer in order to have as many Werewolves alive as Villagers or more Werewolves than Villagers. Try to get these roles right at the beginning: Seer, Aura Seer, Medium, Gunner or Beast Hunter. Be careful if someone is confirmed Seer and a Bodyguard or a Doctor is alive, they will protect him with all they have. The best way to stay alive a bit longer after a Seer looks at you is to claim that you got enchanted and that the icon was probably a normal Werewolf icon. After you tell them that and you didn't get a bullet between your eyes right as you're writing, look at a possible role that you can claim to be. Hint: DON'T say Gunner, Jailer, Priest or Serial Killer.",
+            "abilities": "Can kill one player per night."
+        },
+        "witch": {
+            "label": "Witch",
+            "description": "As a Witch you have two potions you can use only at night: One can instantly kill someone and one can protect someone (it’s used like a protect from a Bodyguard) and the potion will only be used if the person got attacked. Try to not randomkill and think carefully about who you want to protect or kill. Don’t tell who you are or the werewolves will kill you!",
+            "abilities": "Has two potions, one to kill, one to protect."
+        },
+        "zombie": {
+            "label": "Zombie",
+            "description": "A leak ?😱 Sorry, description coming soon !",
+            "abilities": "Coming soon"
+        },
+        "difficulty": {
+            "very_easy": "Very Easy",
+            "easy": "Easy",
+            "medium": "Medium",
+            "hard": "Hard",
+            "very_hard": "Very Hard"
+        },
+        "beast_hunter": {
+            "label": "Beast Hunter",
+            "description": "As Beast hunter you can set a trap on someone and in the following night the trap gets activated. If the werewolves try to attack the protected person a werewolf will die instead. At the beginning set the trap on yourself, but if you see a Seer set the trap on him. If all seers are dead talk to the Doctor and tell him to protect you, if you protect him while he protects you, both of you can survive pretty long.",
+            "abilities": "Has a trap he can place on a player, if that player gets attacked the night after by the werewolves a random werewolf dies."
+        },
+        "cupid": {
+            "label": "Cupid",
+            "description": "In the first night you can select two people that will be a couple. If one of them dies the other one dies too. You win if they’re the last 2 people alive. Don’t reveal who the couple is, just try to support them! You can try looking like the Seer and say that they are good or if one of them is about to die, reveal the couple and tell them that the other person is important. When there are five people alive including you and the couple, tell them to vote the ones that are not in your team!",
+            "abilities": "Can create one couple during the first night."
+        },
+        "junior_werewolf": {
+            "label": "Junior Werewolf",
+            "description": "As Junior Werewolf you can choose a player that dies with you when you die. Look around for roles like Seer, Gunner, Bodyguard, Doctor, or Beast Hunter and choose the one you think is good to die after you do. Talk with the Wolf Seer about roles he saw and choose either the Gunner or Beast Hunter if you find one of them on the first night!",
+            "abilities": "Can choose one player to die with him."
+        },
+        "mayor": {
+            "label": "Mayor",
+            "description": "As Mayor you are a regular villager except you can reveal your role so your vote counts double. Try not revealing your role and be very observant. When you get accused to be a Werewolf just reveal your role and you’ll be fine. When you see that people don’t trust you or there are a few people that get voted and you want to stand out a bit more so people vote who you voted reveal it. But be careful because the wolves will try to kill you after you revealed yourself!",
+            "abilities": "His day vote counts double."
+        },
+        "wolf_seer": {
+            "label": "Wolf Seer",
+            "description": "As Wolf Seer you can see a role each night and talk to the Werewolves. Your goal is to get very important roles for the other wolves to target. These roles can be for example Seer, Aura Seer, Doctor, Medium, Beast Hunter or the Gunner. But you can also find roles that they shouldn't attack like the Bodyguard. You can either be quiet at daytime and tell the wolves all roles at night or if you think the Seer is quiet you can try to play like you're the Seer and slowly convince the village that your teammates are good.",
+            "abilities": "Can see the role from one player each night."
+        },
+        "wolf_shaman": {
+            "label": "Wolf Shaman",
+            "description": "As Wolf Shaman you can enchant one person per day, that person will get shown as a Werewolf for Seers and Evil for Aura Seers. When you're the last Werewolf you can't enchant anyone, except for the day the last werewolf dies, so keep that in mind! The best way to use it is to either be quiet and observe who they will check next or ask someone random for their role and to check this person, either way enchant the suspicious person and wait for confusion. In the night tell your teammates who you enchanted and that they shouldn't kill that person unless it's necessary.",
+            "abilities": "Can enchant one player per day who will appear as werewolf."
+        },
+        "teams": {
+            "werewolves": "Werewolves",
+            "villagers": "Villagers",
+            "no_team": "Wins alone",
+            "lovers_team": "Lovers Team",
+            "sect_team": "Sect Team"
+        },
+        "auras": {
+            "good": "Good",
+            "unknown": "Unknown",
+            "bad": "Bad",
+            "sect_team": "Sect Team",
+            "lovers_team": "Lovers Team"
+        }
+    },
+    "message_label": "Message",
+    "send_label": "Send",
+    "loading_label": "Loading...",
+    "login_fill_in_the_blanks": "Please fill in the fields.",
+    "info_label": "Info",
+    "message_timestamp_label": "Sent on {{0}} at {{1}}",
+    "login_page_title": "Please login first",
+    "username_input_label": "Username",
+    "email_input_label": "Email",
+    "password_input_label": "Password",
+    "login_button_label": "Login",
+    "register_button_label": "Register",
+    "chat_me_label": "Me",
+    "difficulty_label": "Difficulty",
+    "abilities_label": "Abilities",
+    "team_label": "Team",
+    "aura_label": "Aura"
+}
